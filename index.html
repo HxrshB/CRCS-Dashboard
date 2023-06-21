@@ -7,24 +7,26 @@
     <title>MSCS Dashboard</title>
     <link rel="icon" type="image/x-icon" href="images/Favicon.png">
     <link rel="stylesheet" href="index.css">
-    <script defer src="js/dropdown.js"></script>
+    <script src="JavaScript/index.js"></script>
 </head>
 <body>
+<div class="main" >
     <div id="topnav">
         <div id="left">
             <img src="images/Favicon.png" alt="LOGO">
         </div>
         <div id="right">
-            <img src="images/profile-icon.jpg" onclick="toggleMenu()">
+            <img class="profile-img" src="images/profile.png" onclick="toggleOpacity();" >
         </div>  
     </div>
     <div class="sub-menu-wrap" id="subMenu">
         <div class="sub-menu">
+            
             <div class="user-info">
-                <img src="images/profile-icon.jpg">
-                <h2>New User</h2>
+                <img src="images/profile.png">
+                <h2>Welcome !</h2>
             </div>
-            <hr>
+            
             <a href="#" class="sub-menu-link">
                 <p>Edit Profile</p>
                 <span></span>
@@ -43,5 +45,6 @@
             </a>
         </div>
     </div> 
+</div>
 </body>
 </html>
