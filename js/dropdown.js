@@ -1,5 +1,4 @@
-let subMenu=document.getElementById("SubMenu");
-
-function toggleMenu(){
-    subMenu.classList.toggle("open-menu");
-}
+function toggleOpacity() {
+    var element = document.getElementsByClassName("sub-menu-wrap")[0];
+    element.style.opacity = element.style.opacity === "0" ? "1" : "0";
+  }
