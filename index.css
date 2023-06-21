@@ -18,29 +18,66 @@ body {
     padding: 10px;
 }
 #left img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     padding-left: 5px;
 }
-#mid ul{
-    width: 40%;
-    margin:inherit;
-    list-style-type: none;
-    display: flex;
+#right img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding-left: 3px;
 }
-#mid ul li {
-    display: block;
-    text-align:left;
-    padding: 0.4rem;
-}  
-#mid ul li a {
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 400px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: white;
+    padding: 20px;
+    margin: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info h2{
+    font-weight: 500;
+}
+.user-info img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    text-align:left;
-    font-size: 20px;
-    color: white;
-} 
-#mid ul li a:hover {
-    color: red;
-    border-radius: 5px;
+    color: #525252;
+    margin: 7px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+}
+.sub-menu-link span{
+    font-size: 22px;
+}
+.sub-menu-link:hover p{
+    font-weight: 600;
 }
