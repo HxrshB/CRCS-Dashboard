@@ -1,5 +1,6 @@
-let subMenu=document.getElementById("SubMenu");
+const button = document.querySelector('.dropdown-button');
+const menu = document.querySelector('.dropdown-menu');
 
-function toggleMenu(){
-    subMenu.classList.toggle("open-menu");
-}
+button.addEventListener('click', () => {
+  menu.classList.toggle('show');
+});
