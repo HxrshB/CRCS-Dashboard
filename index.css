@@ -8,7 +8,7 @@ body {
 }
 #topnav {
     border-bottom:solid red 2px ;
-    background-image: url(images/topnav-back.jpg);
+    background-color: black;
     background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -27,6 +27,22 @@ body {
 #left img:hover{
     transform: scale(1.15);
     cursor: pointer;
+}
+.mid ul li{
+    display: inline-block;
+}
+.mid ul li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px;
+    font-weight: bold;
+    -webkit-user-select: none;
+}
+
+.mid ul li a:hover{
+    color:red;
 }
 #right {
     width: 50px;
