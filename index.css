@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#topnav {
+    border-bottom:solid blue 2px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+#mid ul{
+    width: 40%;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+}
+#mid ul li {
+    display: block;
+    text-align:left;
+    padding: 0.4rem;
+}  
+#mid ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+} 
+#mid ul li a:hover {
+    color: red;
+    border-radius: 5px;
+}
